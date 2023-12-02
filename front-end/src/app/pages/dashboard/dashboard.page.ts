@@ -1,5 +1,6 @@
-// dashboard.page.ts
 import { Component, OnInit } from '@angular/core';
+import { Chart, registerables } from 'chart.js';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-dashboard',
@@ -13,8 +14,22 @@ export class DashboardPage implements OnInit {
     { title: 'Dashboard', url: '/dashboard', icon: 'mail' },
     // ... otras páginas ...
   ];
+  
 
-  constructor() {}
 
-  ngOnInit() {}
+  ngOnInit() {
+    // Contenido del método ngOnInit del archivo original
+  }
+
+  aplicarFiltro() {
+    // Contenido del método aplicarFiltro del archivo original
+  }
+
+  async getData(urlParams: any) {
+    // Contenido del método getData del archivo original
+  }
+
+  toggleLed() {
+    // Contenido del método toggleLed del archivo original
+  }
 }
